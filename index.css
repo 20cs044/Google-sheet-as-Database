@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,700;1,600&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Fredoka+One&family=Redressed&display=swap');
+
+* {
+    font-family: system-ui;
+}
+
+body {
+    background: rgb(202, 236, 252);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 10px 10px 50px grey;
+}
+
+.box {
+    margin: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgb(202, 236, 252);
+    width: 500px;
+    border: 5px rgb(2, 88, 128) dotted;
+    border-width: 2px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hea {
+    position: absolute;
+    /* background: #000; */
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    font-family: 'Redressed', cursive;
+    margin: 8px;
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    padding-left: 15px;
+}
+
+input:nth-child(5) {
+    width: 350px;
+    height: 60px;
+}
+
+input:nth-child(7) {
+    padding: 0;
+    width: 150px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box h1 {
+    font-family: 'Redressed', cursive;
+    font-weight: 800;
+}
+
+.maincover{
+    width: fit-content;
+    height: fit-content;
+    border: 30px black;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0.29);
+    border-radius: 50px;
+    border: 2px rgb(2, 88, 128) dotted;
+}
+.maincover h1{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    font-weight: 800;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer h3{
+    font-family: 'Redressed', cursive;
+    font-size: medium;
+    margin: 0px 20px 5px 0px;
+}
+
+footer h2{
+    font-family: 'Redressed', cursive;
+    font-size: larger;
+    margin: 0px 10px 5px 0px;
+    font-weight: 500;
+}
